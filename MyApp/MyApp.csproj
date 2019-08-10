@@ -114,7 +114,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppHost.cs" />
+    <Content Include="babel.config.js" />
     <Content Include="Global.asax" />
+    <Compile Include="Configure.Auth.cs" />
+    <Compile Include="Configure.AuthRepository.cs" />
+    <Compile Include="Configure.Ui.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -127,13 +131,21 @@
     </None>
     <Content Include="public\favicon.ico" />
     <Content Include="public\index.html" />
+    <Content Include="public\svg\svg-icons\logo.svg" />
+    <Content Include="src\app.scss" />
+    <Content Include="src\App.vue" />
     <Content Include="src\assets\img\desert.jpg" />
     <Content Include="src\assets\img\favicon-32x32.png" />
     <Content Include="src\assets\img\logo.png" />
-    <Content Include="src\assets\img\logo.svg" />
     <Content Include="src\assets\img\v.png" />
     <Content Include="src\assets\logo.png" />
+    <Content Include="src\components\HelloWorld.vue" />
+    <Content Include="src\home\Home.vue" />
     <Content Include="src\plugins\vuetify.js" />
+    <Content Include="src\view1\View1.vue" />
+    <Content Include="src\view2\View2.vue" />
+    <Content Include="src\views\About.vue" />
+    <Content Include="src\views\Home.vue" />
     <Content Include="tests\e2e\plugins\index.js" />
     <Content Include="tests\e2e\specs\test.js" />
     <Content Include="tests\e2e\support\commands.js" />
@@ -144,14 +156,6 @@
     <Content Include="vue.config.js" />
     <Content Include="Web.config" />
     <Content Include="tslint.json" />
-    <Content Include="src\app.scss" />
-    <Content Include="src\App.vue" />
-    <Content Include="src\components\HelloWorld.vue" />
-    <Content Include="src\home\Home.vue" />
-    <Content Include="src\view1\View1.vue" />
-    <Content Include="src\view2\View2.vue" />
-    <Content Include="src\views\About.vue" />
-    <Content Include="src\views\Home.vue" />
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
