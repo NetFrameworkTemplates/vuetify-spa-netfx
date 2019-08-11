@@ -6,7 +6,7 @@ ASP.NET Framework Vuetify Webpack App Template
 
 > Browse [source code](https://github.com/NetFrameworkTemplates/vuetify-spa-netfx), view live demo [vuetify-spa.web-templates.io](http://vuetify-spa.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
-    $ npm install -g @servicestack/cli
+    $ dotnet tool install --global web
 
-    $ dotnet-new vuetify-spa-netfx ProjectName
+    $ web new vuetify-spa-netfx ProjectName
 
