@@ -133,7 +133,7 @@
     <TypeScriptCompile Include="src\shims-vue.d.ts" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="ServiceStack" Version="5.*" />
     <PackageReference Include="ServiceStack.Server" Version="5.*" />
   </ItemGroup>
