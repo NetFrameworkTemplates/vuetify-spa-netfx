@@ -18,9 +18,9 @@
     "@servicestack/client": "^1.0.31",
     "es6-shim": "^0.35.5",
     "font-awesome": "^4.7.0",
-    "vue": "^2.6.10",
+    "vue": "^3.5.12",
     "vue-class-component": "^7.1.0",
-    "vue-property-decorator": "^8.2.1",
+    "vue-property-decorator": "^8.5.1",
     "vue-router": "^3.0.7",
     "vuetify": "^1.5.16"
   },
